@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color:#353a40; */
+}
+
+nav {
+    width: 100%;
+    box-sizing: content-box;
+    /* padding: 25px 0; */
+    height: 50px;
+    background-color: #2A343E;
+}
+
+.left-header{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+}
+
+nav .left-header p {
+    color: #ff5252;
+    font-size: 22px;
+    padding: 0 20px;
+    line-height: 50px;
+    font-weight: 800;
+}
+
+.right-header {
+    float: right;
+    width: 35%;
+    height: 100%;
+}
+
+.right-header ul {
+    /* display: inline-block; */
+    list-style: none;
+}
+
+.right-header ul li {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: background-color 0.5s;
+}
+
+.right-header ul li:hover{
+    background-color: #2969a2;
+}
+
+.right-header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+main {
+    background-color: #181E25;
+    min-height: 1200px;
+}
+
+#about {
+    width: 80%;
+    margin: 0 10%;
+    height: 300px;
+    /* background-color: red; */
+}
+
+.left-about {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.image-about-wrapper {
+    display: block;
+    width: 50%;
+    margin: 15px 25%;
+    /* border: 2px groove #2A343E; */
+    border-radius: 10px;
+    /* background-color: red; */
+}
+
+.image-about-wrapper img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.social-about-wrapper {
+    display: block;
+    width: 80%;
+    margin: 10px 10%;
+    border-top: 1px solid white;
+}
+
+.social-about-wrapper ul {
+    list-style: none;
+}
+
+.social-about-wrapper ul li {
+    padding: 4px 10px;
+    font-size: 14px;
+    color: white;
+    font-weight: 800;
+}
+
+.right-about {
+    float: right;
+    width: 70%;
+    height: 100%;
+    /* padding: 10px 20px; */
+    /* background-color: red; */
+}
+
+.right-about h2 {
+    padding: 10px 10px;
+    font-weight: 800;
+    color: white;
+}
+
+.right-about p {
+    text-align: justify;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+#hobi{
+    width: 80%;
+    margin: 0px 10%;
+    height: 300px;
+    /* background-color: green; */
+}
+
+.hobi h2{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.hobi-box{
+    display: inline-block;
+    float: left;
+    margin-left: 10%;
+    height: 250px;
+    width: 20%;
+    /* background-color:#eee; */
+}
+
+.hobi-image-wrapper{
+    display: block;
+    width: 80%;
+    height: 180px;
+    margin: 10px 10%;
+    /* background-color: red; */
+}
+
+.hobi-name-wrapper h3 {
+    text-align: center;
+    color: white;
+}
+
+#pendidikan {
+    width: 80%;
+    margin: 0px 10%;
+    height: 300px;
+}
+
+.pendidikan h2 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.pendidikan-title {
+    color: #ff5252;
+    padding: 10px 10px;
+}
+
+.pendidikan-description {
+    padding: 5px 20px;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #2A343E;
+}
+
+footer h4{
+    line-height: 50px;
+    color: white;
+    text-align: center;
+}
